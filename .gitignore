@@ -1,0 +1,26 @@
+# Python / MicroPython
+__pycache__/
+*.py[cod]
+*.mpy
+.venv/
+venv/
+
+# Firmware et outils de flashage
+*.bin
+*.elf
+.micropico
+.pymakr
+
+# Fichiers audio de test (trop lourds pour le dépôt)
+*.wav
+
+# Éditeurs et système
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers temporaires de Word
+~$*.docx
